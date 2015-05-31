@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ <TextView
+        android:id="@+id/tv_SaveInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="手机抓包"
+        android:background="#8470FF"
+        android:textColor="#ffffff"
+        android:paddingLeft="45sp"
+         android:paddingRight="45sp"
+         android:paddingTop="10sp"
+         android:paddingBottom="10sp"
+        android:textSize="25sp" />
+    <ListView
+        
+        android:id="@+id/ListView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Show" >
+    </ListView>
+
+</LinearLayout>

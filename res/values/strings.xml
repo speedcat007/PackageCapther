@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">隐私卫士</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="imgBtn1">应用加锁</string>
+    <string name="imgBtn2">权限查看</string>
+    <string name="imgBtn3">通讯备份</string>
+    <string name="imgBtn4">流量监控</string>
+    <string name="imgBtn5">手机防盗</string>
+    <string name="imgBtn6">文件加密</string>
+    <string name="sz">基本设置</string>
+    <string name="upload"  >读取通讯录并上传到云端</string>
+	<string name="download">下载通讯录并恢复到本地</string>
+	<string name="rightText">共发现 0 款权限软件</string>
+	<string name="rightTip">软件列表</string>
+	<string name="access_denied">权限拒绝</string>
+    <string name="cant_open_dir">您没有对此文件夹操作的权限</string>
+    <string name="empty_folder">文件夹是空的</string>
+    <string name="querying_filesys">正在浏览文件系统... 请稍等~</string>
+    <string name="crypt_files">文件正在转换~~~请稍候···</string>
+</resources>

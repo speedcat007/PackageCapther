@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#000000"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#8470FF" >
+
+        <TextView
+            android:id="@+id/tvFind_kill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingLeft="45sp"
+            android:paddingRight="20sp"
+            android:paddingTop="10sp"
+            android:text="日志查看"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/kill_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-3sp"
+            android:paddingBottom="10sp"
+            android:paddingTop="10sp"
+            android:text="全部清理"
+            android:textSize="15sp" 
+            android:textColor="#8470FF" />
+    </LinearLayout>
+    
+	<!--病毒列表-->
+	<TextView
+	    android:id="@+id/tvTip_kill"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="运行中的程序"
+        android:paddingTop="5sp"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:background="#000000"/>
+	
+    <ListView
+        android:id="@+id/killist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="#000000">
+    </ListView>
+
+</LinearLayout>

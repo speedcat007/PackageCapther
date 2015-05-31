@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff"
+    >
+    
+    <TextView
+        android:id="@+id/tvFind_right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rightText"
+        android:background="#8470FF"
+        android:textColor="#ffffff"
+        android:paddingLeft="45sp"
+         android:paddingRight="45sp"
+         android:paddingTop="10sp"
+         android:paddingBottom="10sp"
+        android:textSize="25sp" />
+    
+	<!--病毒列表-->
+	<TextView
+	    android:id="@+id/tvTip_right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rightTip"
+        android:paddingTop="5sp"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:background="#000000"/>
+	
+    <ListView
+        android:id="@+id/rightlist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="#000000">
+    </ListView>
+
+</LinearLayout>

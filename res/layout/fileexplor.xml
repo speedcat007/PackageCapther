@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <TextView
+        android:id="@+id/tv_fileexplor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="文件加密"
+        android:background="#8470FF"
+        android:textColor="#ffffff"
+        android:paddingLeft="45sp"
+         android:paddingRight="45sp"
+         android:paddingTop="10sp"
+         android:paddingBottom="10sp"
+        android:textSize="25sp" />
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="true"
+        android:textFilterEnabled="true" 
+        
+        
+        >
+    </ListView>
+   
+    
+
+</LinearLayout>

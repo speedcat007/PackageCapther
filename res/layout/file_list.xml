@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >  
+  
+     <LinearLayout 
+       android:id="@+id/listlayout"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical" >
+       
+         <TextView
+        android:id="@+id/tv_12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="手机抓包"
+        android:background="#8470FF"
+        android:textColor="#ffffff"
+        android:paddingLeft="45sp"
+         android:paddingRight="45sp"
+         android:paddingTop="10sp"
+         android:paddingBottom="10sp"
+        android:textSize="25sp" />
+         
+         
+       <ListView
+           android:id="@id/android:list"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:drawSelectorOnTop="false"
+           android:scrollbars="vertical" 
+            />
+       
+   </LinearLayout>
+  
+</LinearLayout>  

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/com/example/activity/MainActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/example/activity/Setting.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/example/activity/WelcomeActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/example/config/myConfig.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/example/ui/ImageButton_define.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/expample/privacy/ListViewAdapter.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/expample/privacy/LogDbManager.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/expample/privacy/LogShowActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/expample/privacy/MonitorDbManager.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/expample/privacy/MonitorService.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/expample/privacy/PacketModel.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/expample/privacy/PrivacyActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/com/expample/privacy/ShowMonitorLog.java" charset="GB2312" />
+  </component>
+</project>
+

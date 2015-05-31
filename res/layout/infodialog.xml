@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip"
+	android:background="@android:color/transparent" >
+	
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="180pt" 
+            android:layout_marginTop="1dp"
+        	android:layout_marginBottom="5dp" 
+        	android:layout_marginLeft="5dp"
+        	android:layout_marginRight="5dp" >
+			
+			<TextView 
+			    android:id="@+id/info"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="10pt" 
+				android:textColor="#ffffff"	/>
+    </ScrollView>
+
+	<Button 
+	    android:id="@+id/okdialogbutton"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="确定" />
+	
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#8470FF"
+        android:gravity="center"
+        android:paddingBottom="10sp"
+        android:paddingLeft="45sp"
+        android:paddingRight="45sp"
+        android:paddingTop="10sp"
+        android:text="监控报告"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生成日期        ："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2014-07-12"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生成时间        ："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18:37:12"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="采取手段        ："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_way"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关闭wifi"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="目标程序        ："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微信"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="目的IP地址    ："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_app_ip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="192.10.12.12"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前阈值        ："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_thread_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1231 b"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上传包大小 	  ："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_max_packet_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="685 b"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_save_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="保存报告" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="退出" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

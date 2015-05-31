@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CATCH"
+  >
+ <TextView
+        android:id="@+id/tv_11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="手机抓包"
+        android:background="#8470FF"
+        android:textColor="#ffffff"
+        android:paddingLeft="45sp"
+         android:paddingRight="45sp"
+         android:paddingTop="10sp"
+         android:paddingBottom="10sp"
+        android:textSize="25sp" />
+    
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60sp"
+        android:text="开始" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_start"
+        android:layout_marginTop="10sp"
+        android:text="停止" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_stop"
+        android:layout_marginTop="10sp"
+        android:text="显示数据" />
+
+    <TextView
+        android:id="@+id/tv_Catch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_show" />
+
+</RelativeLayout>
